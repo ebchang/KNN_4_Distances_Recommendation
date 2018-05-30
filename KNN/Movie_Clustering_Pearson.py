@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Jan 29 22:41:23 2016
 
 @author: evanchang
 """
@@ -116,10 +115,10 @@ rating_test_object_list = []
 
 # Getting the specifics for what is going to be used in the metric algorithms
 d = Dataset()
-d.get_users("/Users/evanchang/Desktop/ml-100k/u.user", user_object_list)
-d.get_items("/Users/evanchang/Desktop/ml-100k/u.item", item_object_list)
-d.get_ratings("/Users/evanchang/Desktop/ml-100k/u.data", rating_object_list)
-d.get_ratings("/Users/evanchang/Desktop/ml-100k/u1.test", rating_test_object_list)
+d.get_users("u.user", user_object_list)
+d.get_items("u.item", item_object_list)
+d.get_ratings("u.data", rating_object_list)
+d.get_ratings("u1.test", rating_test_object_list)
  
 n_users = len(user_object_list)
 n_items = len(item_object_list)
