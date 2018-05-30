@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jan 29 22:41:23 2016
-
-@author: evanchang
-"""
-
 
 import re
 #import metrics
