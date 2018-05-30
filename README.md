@@ -10,7 +10,7 @@ This repo is to create a movie recommendation engine that uses 4 different dista
 
 ### Data
 
-The data that was used can be found in the Data folder. The data used was u.data, u.user, u.item, and u1.test for test. The data is the Movielens data set collected by the GroupLens Research Project at the University of Minnesota.
+The data that was used can be found in the Data folder. The data used was u.data, u.user, u.item, and u1.test for the test data. The data is the Movielens data set collected by the GroupLens Research Project at the University of Minnesota.
 
 ### Results
 
